@@ -14,7 +14,8 @@ def webcam_publisher():
     bridge = CvBridge()
 
     # Inicializa a captura de vídeo da webcam
-    cap = cv2.VideoCapture(0)
+    ## RealSense Cam, the code is 6
+    cap = cv2.VideoCapture(4)
 
     while not rospy.is_shutdown():
         # Captura um frame da webcam

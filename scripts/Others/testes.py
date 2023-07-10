@@ -238,7 +238,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-bag = rosbag.Bag('point_cloud0.bag')
+bag = rosbag.Bag('point_cloud145.bag')
 
 # Lista vazia para armazenar os pontos
 points = []
